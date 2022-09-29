@@ -17,12 +17,13 @@ class Result extends Component {
         </div>
         <div className="display-4">
           TỔNG SỐ BÀN CHƠI:{" "}
-          <span className="text-success">{this.props.soBanThang}</span>
+          <span className="text-success">{this.props.tongSoBanChoi}</span>
         </div>
       </div>
     );
   }
 }
+//lấy dữ liệu từ reducer thành props cho component bằng phương thức mapStateToProps
 const mapStateToProps = (state) => {
   return {
     soBanThang: state.DiceReducer.soBanThang,

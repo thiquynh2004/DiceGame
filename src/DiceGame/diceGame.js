@@ -40,7 +40,7 @@ class DiceGame extends Component {
         </div>
         <div className="row">
           <Result />
-          <button class="btnPlay" onClick={() =>{this.props.playGame()}}>PLAY GAME</button>
+          <button className="btnPlay" onClick={() =>{this.props.playGame()}}>PLAY GAME</button>
         </div>
       </div>
     );

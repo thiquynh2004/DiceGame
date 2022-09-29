@@ -23,13 +23,18 @@
     font-family: 'Dangrek', cursive;
     background-color: rgb(0, 255, 98);
     border-radius: 1px solid rgb(225, 255, 0);
+    transition: transform .5s;
+    cursor: pointer;
+}
+.btnGame:hover{
+    transform: scale(1.1);
 }
 .result{
     font-size:30px;
     font-weight: bold;
 }
 span{
-    color:rgb(158, 79, 6)
+    color:rgb(224, 27, 5)
 }
 .btnPlay{
     width: 240;
@@ -39,4 +44,14 @@ span{
     font-weight: bold;
     font-family: 'Dangrek', cursive;
     background-color: rgb(33, 11, 194);
+    transition: 1s;
+    border-radius:  5px solid transparent;
+    /* box-shadow: 6px 6px 0 black; */
+    transform: skewX(-10deg);
+    cursor: pointer;
+}
+.btnPlay:hover{
+    opacity: 1;
+    transform: scale(1,1);
+    background-color:rgb(255, 0, 0)
 }
